@@ -8,5 +8,5 @@
 精简了一下其中想要的部分，使得只进行wav->mel和mel->wav的过程
 
 
-hifigan源码及预训练模型下载：
-[👉hifiGAN](https://github.com/jik876/hifi-gan)
+Hi-FiGAN源码及预训练模型下载：
+[👉HiFi-GAN](https://github.com/jik876/hifi-gan)
