@@ -13,8 +13,8 @@ f = open('mel.pkl', 'rb')
 mel = pickle.load(f)
 f.close()
 
-mel = abs(mel.squeeze())
-mel = numpy.clip((mel - ref_db + max_db) / max_db, 1e-8, 10)
+mel = mel.squeeze()
+mel = numpy.clip((mel - ref_db + max_db) / max_db, 1e-8, 1)
 
 print(mel.shape)
 
